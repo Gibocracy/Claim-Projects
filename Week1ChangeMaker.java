@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 		 * 1. Understand and Define the Problem:
 		 * ask user for input, US coins 
-		 * (quarter, dime, nickel, penny), max change: 99¢
+		 * (quarter, dime, nickel, penny), max change: 99Â¢
 		 * display coin output
-		 * What’s involved?
+		 * Whatâ€™s involved?
 		 * Write java docs to explain your program and algorithms.
 
 		 * 2. Determine Input and Output
@@ -38,7 +38,7 @@ public class Week1ChangeMaker {
 		amountOfCoins = myScanner.nextInt(); //Input double for amountOfCoins into scanner
 		
 /* Coin amount must go in this order: quarterAmount, dimeAmount, nickleAmount,pennieAmount
- * It will give the correct amount of change otherwise Example, if pennies is first and your
+ * It will give the incorrect amount of change otherwise Example, if pennies is first and your
  * amountOfCoins equals 99 theyn out put will be 99 pennies amountOfCoins is divided 
  * by 25, 10, 5, and 1; each is followed by an %= in the same order as variable*/
 		
